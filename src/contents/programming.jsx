@@ -9,6 +9,7 @@ const Programming = () => {
       <div class="d-flex align-items-center mt-5">
         <div class="container">
           <div class="row justify-content-center align-items-center mb-4 animate2">
+            <div className="col-12 text-white text-center mb-5"><h1>ongoing</h1></div>
               <div class="col-12 col-sm-12 col-md-8 text-center">
                 <img src="/assets/htmlss.png" alt="" class="img-fluid"/>
               </div>
