@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+body {
+  color: #333333;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Line Height */
+.lh-12 {line-height: 12px;}
+.lh-16 {line-height: 16px;}
+.lh-20 {line-height: 20px;}
+.lh-24 {line-height: 24px;}
+.lh-28 {line-height: 28px;}
+
+/* Font Size */
+.text-xs {font-size: 10px;}
+.text-sm {font-size: 12px;}
+.text-md {font-size: 14px;}
+.text-lg {font-size: 16px;}
+.text-xl {font-size: 20px;}
+.text-xxl {font-size: 35px;}
+
+/* Font Weight */
+.fw-100 {font-weight: 100;}
+.fw-300 {font-weight: 300;}
+.fw-400 {font-weight: 400;}
+.fw-500 {font-weight: 500;}
+.fw-700 {font-weight: 700;}
+.fw-900 {font-weight: 900;}
+
+/* Text Color */
+.text-gray {color: #666666;}
+.text-light-gray {color: #999999;}
+.text-semi-gray {color: #D8D8D8}
+.text-semi-black {color: #333333}
+.text-red {color: #D00B0B;}
+.text-blue {color: #005DA6}
+.text-brown {color: #8B760B;}
+.text-orange {color: #D4B000;}
+
+/* Radius */
+.radius-4 {border-radius: 4px;}
+.radius-6 {border-radius: 6px;}
+.radius-8 {border-radius: 8px;}
+.radius-10 {border-radius: 10px;}
+.radius-12 {border-radius: 12px;}
+
+
+/* Background-Color */
+.bg-brown-gradient {background: linear-gradient(90deg, #FFF6CC 0%, rgba(255, 246, 204, 0) 100%);}
+.bg-light-blue {background: #E6F4FF;}
+.bg-brown {background: #FFF6CC;}
+.bg-black {background: #000000;}
+
+/*  */
+.bg-main-img {
+  background-image: url('/public/assets/laptop.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes mymove {
+  from {right: 1000px;}
+  to {right: 0px;}
+}
+
+@keyframes mymove2 {
+  from {left: 1000px;}
+  to {left: 0px;}
+}
+
+.bg-line{
+  background: repeating-linear-gradient(
+    25deg,
+    black,
+    black 10px,
+    #000000 10px,
+    #2b2a2a 11px
+  );
+  background-size: cover;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .animate{
+    position: relative;
+    animation: mymove 3s;
   }
-  to {
-    transform: rotate(360deg);
+
+  .animate2{
+    position: relative;
+    animation: mymove2 3s forwards;
   }
-}
+
+  .user-img{
+    border-radius: 45%;
+    width: auto;
+    height: auto;
+  }
+
+  .dot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dot, .dot2, .dot3, .dot4 {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    background-color: #717171;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .active-dot,.active-dot2{
+    background-color: blue;
+  }
+  
+  .active-dot3{
+    background-color: orange;
+  }
+  .active-dot4{
+    background-color: red;
+  }
+
+  

@@ -1,0 +1,68 @@
+.nav{
+  color: rgb(181, 181, 181) ;
+  text-decoration: none;
+  gap: 16px;
+  }
+
+.navi{
+  color: rgb(181, 181, 181) ;
+  text-decoration: none;
+  gap: 24px;
+  }
+
+  .nav:active {
+  color: white ;
+  }
+
+  .nav:hover{
+     color: white !important;
+  }
+
+  .nav.active {
+    color: white; 
+    font-weight: bold; 
+  }
+
+  .navi:active {
+  color: white ;
+  }
+
+  .navi:hover{
+     color: white !important;
+  }
+
+  .navi.active {
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    color: white;
+  }
+
+  .menu{
+     background-color: white;
+     opacity: 0.9;
+  }
+
+  .test{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: black;
+  }
+
+  .bg-line-menu{
+    background: repeating-linear-gradient(
+      25deg,
+      black,
+      black 10px,
+      #000000 10px,
+      #2b2a2a 11px
+    );
+    background-size: cover;
+    
+    }
