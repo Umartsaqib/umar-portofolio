@@ -324,85 +324,85 @@ const ProjectsApplications = () => {
           <div className={`dot4 ${activeContent4 === 7 ? "active-dot4" : ""}`} onClick={() => showContent4(7)}></div>
           <div className={`dot4 ${activeContent4 === 8 ? "active-dot4" : ""}`} onClick={() => showContent4(8)}></div>
         </div>
-      <div class="row mt-5">
-        <div class="col-12 col-sm-12 col-md-4">
-          <p class="text-white mb-0">Project & Application</p>
-          <h2 class="text-white">WEB</h2>
+      <div className="row mt-5">
+        <div className="col-12 col-sm-12 col-md-4">
+          <p className="text-white mb-0">Project & Application</p>
+          <h2 className="text-white">WEB</h2>
         </div>
       </div>
-        <div class="row py-5">
-          <div class="col-12 col-sm-12 col-md-6">
-            <div class="d-flex gap-2 ">
+        <div className="row py-5">
+          <div className="col-12 col-sm-12 col-md-6">
+            <div className="d-flex gap-2 ">
               <div>
-                <p class="text-white text-xl fw-700">01</p>
+                <p className="text-white text-xl fw-700">01</p>
               </div>
               <div>
-                <p class="text-white text-xl fw-700">Ticks</p>
+                <p className="text-white text-xl fw-700">Ticks</p>
               </div>
             </div>
-            <div class="d-flex flex-column align-items-center">
-              <img src="/assets/ticks.png" alt="" class="img-fluid"/>
+            <div className="d-flex flex-column align-items-center">
+              <img src="/assets/ticks.png" alt="" className="img-fluid"/>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6">
-            <div class="d-flex gap-2">
+          <div className="col-12 col-sm-12 col-md-6">
+            <div className="d-flex gap-2">
               <div>
-                <p class="text-white text-xl fw-700">02</p>
+                <p className="text-white text-xl fw-700">02</p>
               </div>
               <div>
-                <p class="text-white text-xl fw-700">Super Cats(On Progress)</p>
+                <p className="text-white text-xl fw-700">Super Cats(On Progress)</p>
               </div>
             </div>
-            <div class="d-flex flex-column align-items-center">
-              <img src="/assets/cats.png" alt="" class="img-fluid"/>
+            <div className="d-flex flex-column align-items-center">
+              <img src="/assets/cats.png" alt="" className="img-fluid"/>
             </div>
           </div>
           <div className="row my-5">
-            <div class="col-12 col-sm-12 col-md-6">
-              <div class="d-flex gap-2 ">
+            <div className="col-12 col-sm-12 col-md-6">
+              <div className="d-flex gap-2 ">
                 <div>
-                  <p class="text-white text-xl fw-700">03</p>
+                  <p className="text-white text-xl fw-700">03</p>
                 </div>
                 <div>
-                  <p class="text-white text-xl fw-700">Pokemon</p>
+                  <p className="text-white text-xl fw-700">Pokemon</p>
                 </div>
               </div>
-              <div class="d-flex flex-column align-items-center">
-                <img src="/assets/poke.png" alt="" class="img-fluid"/>
+              <div className="d-flex flex-column align-items-center">
+                <img src="/assets/poke.png" alt="" className="img-fluid"/>
               </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6">
-              <div class="d-flex gap-2">
+            <div className="col-12 col-sm-12 col-md-6">
+              <div className="d-flex gap-2">
                 <div>
-                  <p class="text-white text-xl fw-700">04</p>
+                  <p className="text-white text-xl fw-700">04</p>
                 </div>
                 <div>
-                  <p class="text-white text-xl fw-700">CareerSearch</p>
+                  <p className="text-white text-xl fw-700">CareerSearch</p>
                 </div>
               </div>
-              <div class="d-flex flex-column align-items-center">
-                <img src="/assets/cs.png" alt="" class="img-fluid"/>
+              <div className="d-flex flex-column align-items-center">
+                <img src="/assets/cs.png" alt="" className="img-fluid"/>
               </div>
             </div>
           </div>
 
-          <div class="container py-5">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-6">
-                <div class="text-center">
-                  <div class="content active-content">
-                    <img src="/assets/ticks1.png" alt="" class="img-fluid" style={{width: 400, height: 400}}/>
+          <div className="container py-5">
+            <div className="row">
+              <div className="col-12 col-sm-12 col-md-6">
+                <div className="text-center">
+                  <div className="content active-content">
+                    <img src="/assets/ticks1.png" alt="" className="img-fluid" style={{width: 400, height: 400}}/>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
-                <div class="d-flex align-items-center gap-2">
-                  <p class="text-white text-xl fw-700 mb-0">01</p>
-                  <h2 class="text-white text-xl fw-900 mb-0">Ticks</h2>
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+                <div className="d-flex align-items-center gap-2">
+                  <p className="text-white text-xl fw-700 mb-0">01</p>
+                  <h2 className="text-white text-xl fw-900 mb-0">Ticks</h2>
                 </div>
                 <div>
-                  <p class="text-white">About Project</p>
-                  <p class="text-white">ticks is an online concert ticketbuying and selling
+                  <p className="text-white">About Project</p>
+                  <p className="text-white">ticks is an online concert ticketbuying and selling
                     website tomake it easier for users to buyconcert tickets,
                     also in ticks thereare a category like best
                     seller,recommendation ticket & promo</p>
@@ -411,61 +411,61 @@ const ProjectsApplications = () => {
             </div>
           </div>
 
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <div class="col-12">
-                <h2 class="text-white">Ticks MockUps</h2>
+          <div className="container py-5">
+            <div className="row justify-content-center">
+              <div className="col-12">
+                <h2 className="text-white">Ticks MockUps</h2>
               </div>
-              <div class="row my-5">
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/ticks2.jpeg" alt="" class="img-fluid "/>
-                  <p class="text-white fw-700 text-md mt-2"> Homepage</p>
+              <div className="row my-5">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/ticks2.jpeg" alt="" className="img-fluid "/>
+                  <p className="text-white fw-700 text-md mt-2"> Homepage</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/ticks3.jpeg" alt="" class="img-fluid "/>
-                  <p class="text-white fw-700 text-md mt-2"> Homepage (scrolldown)</p>
-                </div>
-              </div>
-              <div class="row my-5">
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/ticks4.jpeg" alt="" class="img-fluid "/>
-                  <p class="text-white fw-700 text-md mt-2"> Ticket Page</p>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/ticks5.jpeg" alt="" class="img-fluid "/>
-                  <p class="text-white fw-700 text-md mt-2"> Ticket Detail Page</p>
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/ticks3.jpeg" alt="" className="img-fluid "/>
+                  <p className="text-white fw-700 text-md mt-2"> Homepage (scrolldown)</p>
                 </div>
               </div>
-              <div class="row my-5">
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/ticks6.jpeg" alt="" class="img-fluid "/>
-                  <p class="text-white fw-700 text-md mt-2"> Register Detail Page</p>
+              <div className="row my-5">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/ticks4.jpeg" alt="" className="img-fluid "/>
+                  <p className="text-white fw-700 text-md mt-2"> Ticket Page</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/ticks7.jpeg" alt="" class="img-fluid "/>
-                  <p class="text-white fw-700 text-md mt-2"> PromotionPage</p>
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/ticks5.jpeg" alt="" className="img-fluid "/>
+                  <p className="text-white fw-700 text-md mt-2"> Ticket Detail Page</p>
+                </div>
+              </div>
+              <div className="row my-5">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/ticks6.jpeg" alt="" className="img-fluid "/>
+                  <p className="text-white fw-700 text-md mt-2"> Register Detail Page</p>
+                </div>
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/ticks7.jpeg" alt="" className="img-fluid "/>
+                  <p className="text-white fw-700 text-md mt-2"> PromotionPage</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="container py-5">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-6">
-                <div class="text-center">
-                  <div class="content active-content">
-                    <img src="/assets/cats2.png" alt="" class="img-fluid" style={{width: 400, height: 400}}/>
+          <div className="container py-5">
+            <div className="row">
+              <div className="col-12 col-sm-12 col-md-6">
+                <div className="text-center">
+                  <div className="content active-content">
+                    <img src="/assets/cats2.png" alt="" className="img-fluid" style={{width: 400, height: 400}}/>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
-                <div class="d-flex align-items-center gap-2">
-                  <p class="text-white text-xl fw-700 mb-0">02</p>
-                  <h2 class="text-white text-xl fw-900 mb-0">Super Cats</h2>
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+                <div className="d-flex align-items-center gap-2">
+                  <p className="text-white text-xl fw-700 mb-0">02</p>
+                  <h2 className="text-white text-xl fw-900 mb-0">Super Cats</h2>
                 </div>
                 <div>
-                  <p class="text-white">About Project</p>
-                  <p class="text-white">super cat is a website about thecat lovers community,
+                  <p className="text-white">About Project</p>
+                  <p className="text-white">super cat is a website about thecat lovers community,
                     on thiswebsite users can see photos andvideos of cats,
                     and there is a formwhere users are asked to fill intheir
                     personal data to enter thecat lovers community</p>
@@ -474,67 +474,67 @@ const ProjectsApplications = () => {
             </div>
           </div>
 
-          <div class="container py-5">
-            <div class="row justify-content-center">
-              <div class="col-12">
-                <h2 class="text-white">Super Cats MockUps</h2>
+          <div className="container py-5">
+            <div className="row justify-content-center">
+              <div className="col-12">
+                <h2 className="text-white">Super Cats MockUps</h2>
               </div>
-              <div class="row my-5">
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/cats3.jpeg" alt="" class="img-fluid "/>
+              <div className="row my-5">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/cats3.jpeg" alt="" className="img-fluid "/>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/cats4.jpeg" alt="" class="img-fluid "/>
-                </div>
-              </div>
-              <div class="row my-5">
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/cats5.jpeg" alt="" class="img-fluid "/>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 d-flex flex-column">
-                  <img src="/assets/cats6.jpeg" alt="" class="img-fluid "/>
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/cats4.jpeg" alt="" className="img-fluid "/>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="container py-5">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-6">
-                <div class="text-center">
-                  <div class="content active-content">
-                    <img src="/assets/poke2.png" alt="" class="img-fluid" style={{width: 400, height: 300}}/>
-                  </div>
+              <div className="row my-5">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/cats5.jpeg" alt="" className="img-fluid "/>
                 </div>
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
-                <div class="d-flex align-items-center gap-2">
-                  <p class="text-white text-xl fw-700 mb-0">03</p>
-                  <h2 class="text-white text-xl fw-900 mb-0">Pokemon</h2>
-                </div>
-                <div>
-                  <p class="text-white">About Project</p>
-                  <p class="text-white">pokemon is</p>
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                  <img src="/assets/cats6.jpeg" alt="" className="img-fluid "/>
                 </div>
               </div>
             </div>
           </div>
-          <div class="container py-5">
-            <div class="row">
-              <div class="col-12 col-sm-12 col-md-6">
-                <div class="text-center">
-                  <div class="content active-content">
-                    <img src="/assets/cs2.png" alt="" class="img-fluid" style={{width: 400, height: 300}}/>
+          <div className="container py-5">
+            <div className="row">
+              <div className="col-12 col-sm-12 col-md-6">
+                <div className="text-center">
+                  <div className="content active-content">
+                    <img src="/assets/poke2.png" alt="" className="img-fluid" style={{width: 400, height: 300}}/>
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
-                <div class="d-flex align-items-center gap-2">
-                  <p class="text-white text-xl fw-700 mb-0">04</p>
-                  <h2 class="text-white text-xl fw-900 mb-0">CareerSearch</h2>
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+                <div className="d-flex align-items-center gap-2">
+                  <p className="text-white text-xl fw-700 mb-0">03</p>
+                  <h2 className="text-white text-xl fw-900 mb-0">Pokemon</h2>
                 </div>
                 <div>
-                  <p class="text-white">About Project</p>
-                  <p class="text-white">CareerSearch is</p>
+                  <p className="text-white">About Project</p>
+                  <p className="text-white">pokemon is</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container py-5">
+            <div className="row">
+              <div className="col-12 col-sm-12 col-md-6">
+                <div className="text-center">
+                  <div className="content active-content">
+                    <img src="/assets/cs2.png" alt="" className="img-fluid" style={{width: 400, height: 300}}/>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+                <div className="d-flex align-items-center gap-2">
+                  <p className="text-white text-xl fw-700 mb-0">04</p>
+                  <h2 className="text-white text-xl fw-900 mb-0">CareerSearch</h2>
+                </div>
+                <div>
+                  <p className="text-white">About Project</p>
+                  <p className="text-white">CareerSearch is</p>
                 </div>
               </div>
             </div>
