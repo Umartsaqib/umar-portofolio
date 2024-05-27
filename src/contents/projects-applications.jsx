@@ -185,13 +185,13 @@ const ProjectsApplications = () => {
               <h2 className="text-white fw-900 mb-0">Diet Io MockUps</h2>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/diet3.png" alt="" className="img-fluid" />
+              <img src="/assets/diet3.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/diet4.png" alt="" className="img-fluid" />
+              <img src="/assets/diet4.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/diet5.png" alt="" className="img-fluid" />
+              <img src="/assets/diet5.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
           </div>
         </div>
@@ -230,13 +230,13 @@ const ProjectsApplications = () => {
               <h2 className="text-white fw-900 mb-0">M-Banking (Clone) MockUps</h2>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/bca3.png" alt="" className="img-fluid" />
+              <img src="/assets/bca3.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/bca4.png" alt="" className="img-fluid" />
+              <img src="/assets/bca4.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/bca5.png" alt="" className="img-fluid" />
+              <img src="/assets/bca5.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
           </div>
         </div>
@@ -275,13 +275,13 @@ const ProjectsApplications = () => {
               <h2 className="text-white fw-900 mb-0">Rentable MockUps</h2>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/rent3.png" alt="" className="img-fluid" />
+              <img src="/assets/rent3.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/rent4.png" alt="" className="img-fluid" />
+              <img src="/assets/rent4.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/rent5.png" alt="" className="img-fluid" />
+              <img src="/assets/rent5.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
           </div>
         </div>
@@ -319,13 +319,13 @@ const ProjectsApplications = () => {
               <h2 className="text-white fw-900 mb-0">Chromatic Cinema MockUps</h2>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/cc3.png" alt="" className="img-fluid" />
+              <img src="/assets/cc3.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/cc4.png" alt="" className="img-fluid" />
+              <img src="/assets/cc4.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
             <div className="col-12 col-sm-12 col-md-3 text-center">
-              <img src="/assets/cc5.png" alt="" className="img-fluid" />
+              <img src="/assets/cc5.png" alt="" className="img-fluid" style={{ height: 400 }} data-aos="fade-up"/>
             </div>
           </div>
         </div>
