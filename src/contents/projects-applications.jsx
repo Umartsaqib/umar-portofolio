@@ -35,7 +35,7 @@ const ProjectsApplications = () => {
       <div className="container">
         {/* UI/UX */}
         <div className="row mt-5">
-          <div className="col-12 col-sm-12 col-md-4">
+          <div className="col-12 col-sm-12 col-md-4" data-aos="fade-right">
             <p className="text-white mb-0">Project & Application</p>
             <h2 className="text-white">UI/UX</h2>
           </div>
@@ -422,7 +422,7 @@ const ProjectsApplications = () => {
 
           <div className="container py-5">
             <div className="row justify-content-center">
-              <div className="col-12">
+              <div className="col-12" data-aos="fade-up">
                 <h2 className="text-white">Ticks MockUps</h2>
               </div>
               <div className="row my-5">
