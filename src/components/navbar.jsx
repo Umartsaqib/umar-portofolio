@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../components/navbar.css';
 
 const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <>
@@ -17,7 +23,7 @@ const Navbar = () => {
               </span>
             </div>
             <div>
-              <ul className="nav nav-pills collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+              <ul className={`nav nav-pills collapse navbar-collapse d-lg-flex justify-content-end ${menuOpen ? 'show' : ''}`} id="navbarNav">
                 <li className="nav-item">
                   <Link to="/about" className={`nav fw-500 text-lg lh-24 ${pathname === '/about' ? 'active' : ''}`}>About Me</Link>
                 </li>
@@ -31,7 +37,7 @@ const Navbar = () => {
                   <Link to="/projects-applications" className={`nav fw-500 text-lg lh-24 ${pathname === '/projects-applications' ? 'active' : ''}`}>Project & Application</Link>
                 </li>
               </ul>
-              <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <button className="navbar-toggler d-lg-none" type="button" onClick={toggleMenu}>
                 <i className="bi bi-list text-white" style={{fontSize: 20}}></i>
               </button>
             </div>
@@ -39,9 +45,9 @@ const Navbar = () => {
         </div>
       </header>
 
-      <div className="offcanvas offcanvas-end " tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div className="test offcanvas-header py-3 px-4 d-flex  align-items-center justify-content-end">
-          <i className="bi bi-x text-white" style={{fontSize: 20}} data-bs-dismiss="offcanvas" aria-label="Close"></i>
+      <div className={`offcanvas offcanvas-end ${menuOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div className="test offcanvas-header py-3 px-4 d-flex align-items-center justify-content-end">
+          <i className="bi bi-x text-white" style={{fontSize: 20}} onClick={toggleMenu} aria-label="Close"></i>
         </div>
         <div className="offcanvas-body bg-line-menu col gap-4">
           <ul className="navbar-nav justify-content-end flex-grow-1 gap-4">
