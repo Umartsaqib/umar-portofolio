@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 
 const About = () => {
   return(
-    <div className="bg-line">
+    <div className="bg-line min-vh-100">
       <Navbar />
       <div className="d-flex align-items-center">
         <div className="container animate">
