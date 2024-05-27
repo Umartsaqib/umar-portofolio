@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Navbar from "../components/navbar";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ProjectsApplications = () => {
   const [activeContent, setActiveContent] = useState(1);
@@ -20,6 +22,13 @@ const ProjectsApplications = () => {
     setActiveContent4(contentNumber === 8 ? 8 : 7);
   };
 
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: true, 
+    });
+  }, []);
+
   return (
     <div className="bg-line">
       <Navbar />
@@ -34,7 +43,7 @@ const ProjectsApplications = () => {
         {/* Projects & Applications */}
         <div className="row py-5">
           {/* Project 1 */}
-          <div className="col-12 col-sm-12 col-md-3 animate">
+          <div className="col-12 col-sm-12 col-md-3" data-aos="fade-up">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">01</p>
@@ -48,7 +57,7 @@ const ProjectsApplications = () => {
             </div>
           </div>
           {/* Project 2 */}
-          <div className="col-12 col-sm-12 col-md-3 animate2">
+          <div className="col-12 col-sm-12 col-md-3 " data-aos="fade-up">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">02</p>
@@ -62,7 +71,7 @@ const ProjectsApplications = () => {
             </div>
           </div>
           {/* Project 3 */}
-          <div className="col-12 col-sm-12 col-md-3 animate">
+          <div className="col-12 col-sm-12 col-md-3 " data-aos="fade-up">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">03</p>
@@ -76,7 +85,7 @@ const ProjectsApplications = () => {
             </div>
           </div>
           {/* Project 4 */}
-          <div className="col-12 col-sm-12 col-md-3 animate2">
+          <div className="col-12 col-sm-12 col-md-3 " data-aos="fade-up">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">04</p>
@@ -144,7 +153,7 @@ const ProjectsApplications = () => {
         </div>
         </div> */}
 
-        <div className={`container py-5 ${activeContent === 1 ? "" : "d-none"}`} id="content1">
+        <div className={`container py-5 ${activeContent === 1 ? "" : "d-none"}`} id="content1" data-aos="fade-up">
           <div className="row">
                 <div className="col-12 col-sm-12 col-md-6">
                   <div className="text-center">
@@ -186,11 +195,11 @@ const ProjectsApplications = () => {
             </div>
           </div>
         </div>
-        <div className="dot-container">
+        <div className="dot-container" data-aos="fade-up">
           <div className={`dot ${activeContent === 1 ? "active-dot" : ""}`} onClick={() => showContent(1)}></div>
           <div className={`dot ${activeContent === 2 ? "active-dot" : ""}`} onClick={() => showContent(2)}></div>
         </div>
-        <div className={`container py-5 ${activeContent2 === 3 ? "" : "d-none"}`} id="content3">
+        <div className={`container py-5 ${activeContent2 === 3 ? "" : "d-none"}`} id="content3" data-aos="fade-up">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
               <div className="d-flex align-items-center gap-2">
@@ -231,11 +240,11 @@ const ProjectsApplications = () => {
             </div>
           </div>
         </div>
-        <div className="dot-container">
+        <div className="dot-container" data-aos="fade-up">
           <div className={`dot2 ${activeContent2 === 3 ? "active-dot2" : ""}`} onClick={() => showContent2(3)}></div>
           <div className={`dot2 ${activeContent2 === 4 ? "active-dot2" : ""}`} onClick={() => showContent2(4)}></div>
         </div>
-        <div className={`container py-5 ${activeContent3 === 5 ? "" : "d-none"}`} id="content5">
+        <div className={`container py-5 ${activeContent3 === 5 ? "" : "d-none"}`} id="content5" data-aos="fade-up">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-6">
               <div className="text-center">
@@ -276,11 +285,11 @@ const ProjectsApplications = () => {
             </div>
           </div>
         </div>
-        <div className="dot-container">
+        <div className="dot-container" data-aos="fade-up">
           <div className={`dot3 ${activeContent3 === 5 ? "active-dot3" : ""}`} onClick={() => showContent3(5)}></div>
           <div className={`dot3 ${activeContent3 === 6 ? "active-dot3" : ""}`} onClick={() => showContent3(6)}></div>
         </div>
-        <div className={`container py-5 ${activeContent4 === 7 ? "" : "d-none"}`} id="content7">
+        <div className={`container py-5 ${activeContent4 === 7 ? "" : "d-none"}`} id="content7" data-aos="fade-up">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
               <div className="d-flex align-items-center gap-2">
@@ -320,18 +329,18 @@ const ProjectsApplications = () => {
             </div>
           </div>
         </div>
-        <div className="dot-container">
+        <div className="dot-container" data-aos="fade-up">
           <div className={`dot4 ${activeContent4 === 7 ? "active-dot4" : ""}`} onClick={() => showContent4(7)}></div>
           <div className={`dot4 ${activeContent4 === 8 ? "active-dot4" : ""}`} onClick={() => showContent4(8)}></div>
         </div>
-      <div className="row mt-5">
+      <div className="row mt-5" data-aos="fade-up">
         <div className="col-12 col-sm-12 col-md-4">
           <p className="text-white mb-0">Project & Application</p>
           <h2 className="text-white">WEB</h2>
         </div>
       </div>
         <div className="row py-5">
-          <div className="col-12 col-sm-12 col-md-6">
+          <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
             <div className="d-flex gap-2 ">
               <div>
                 <p className="text-white text-xl fw-700">01</p>
@@ -344,7 +353,7 @@ const ProjectsApplications = () => {
               <img src="/assets/ticks.png" alt="" className="img-fluid"/>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-6">
+          <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-700">02</p>
@@ -358,7 +367,7 @@ const ProjectsApplications = () => {
             </div>
           </div>
           <div className="row my-5">
-            <div className="col-12 col-sm-12 col-md-6">
+            <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
               <div className="d-flex gap-2 ">
                 <div>
                   <p className="text-white text-xl fw-700">03</p>
@@ -371,7 +380,7 @@ const ProjectsApplications = () => {
                 <img src="/assets/poke.png" alt="" className="img-fluid"/>
               </div>
             </div>
-            <div className="col-12 col-sm-12 col-md-6">
+            <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
               <div className="d-flex gap-2">
                 <div>
                   <p className="text-white text-xl fw-700">04</p>
@@ -388,14 +397,14 @@ const ProjectsApplications = () => {
 
           <div className="container py-5">
             <div className="row">
-              <div className="col-12 col-sm-12 col-md-6">
+              <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
                 <div className="text-center">
                   <div className="content active-content">
                     <img src="/assets/ticks1.png" alt="" className="img-fluid" style={{width: 400, height: 400}}/>
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column" data-aos="fade-up">
                 <div className="d-flex align-items-center gap-2">
                   <p className="text-white text-xl fw-700 mb-0">01</p>
                   <h2 className="text-white text-xl fw-900 mb-0">Ticks</h2>
@@ -417,31 +426,31 @@ const ProjectsApplications = () => {
                 <h2 className="text-white">Ticks MockUps</h2>
               </div>
               <div className="row my-5">
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/ticks2.jpeg" alt="" className="img-fluid "/>
                   <p className="text-white fw-700 text-md mt-2"> Homepage</p>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/ticks3.jpeg" alt="" className="img-fluid "/>
                   <p className="text-white fw-700 text-md mt-2"> Homepage (scrolldown)</p>
                 </div>
               </div>
               <div className="row my-5">
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/ticks4.jpeg" alt="" className="img-fluid "/>
                   <p className="text-white fw-700 text-md mt-2"> Ticket Page</p>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/ticks5.jpeg" alt="" className="img-fluid "/>
                   <p className="text-white fw-700 text-md mt-2"> Ticket Detail Page</p>
                 </div>
               </div>
               <div className="row my-5">
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/ticks6.jpeg" alt="" className="img-fluid "/>
                   <p className="text-white fw-700 text-md mt-2"> Register Detail Page</p>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/ticks7.jpeg" alt="" className="img-fluid "/>
                   <p className="text-white fw-700 text-md mt-2"> PromotionPage</p>
                 </div>
@@ -451,14 +460,14 @@ const ProjectsApplications = () => {
 
           <div className="container py-5">
             <div className="row">
-              <div className="col-12 col-sm-12 col-md-6">
+              <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
                 <div className="text-center">
                   <div className="content active-content">
                     <img src="/assets/cats2.png" alt="" className="img-fluid" style={{width: 400, height: 400}}/>
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column" data-aos="fade-up">
                 <div className="d-flex align-items-center gap-2">
                   <p className="text-white text-xl fw-700 mb-0">02</p>
                   <h2 className="text-white text-xl fw-900 mb-0">Super Cats</h2>
@@ -476,22 +485,22 @@ const ProjectsApplications = () => {
 
           <div className="container py-5">
             <div className="row justify-content-center">
-              <div className="col-12">
+              <div className="col-12" data-aos="fade-up">
                 <h2 className="text-white">Super Cats MockUps</h2>
               </div>
               <div className="row my-5">
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/cats3.jpeg" alt="" className="img-fluid "/>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/cats4.jpeg" alt="" className="img-fluid "/>
                 </div>
               </div>
               <div className="row my-5">
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/cats5.jpeg" alt="" className="img-fluid "/>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
                   <img src="/assets/cats6.jpeg" alt="" className="img-fluid "/>
                 </div>
               </div>
@@ -499,14 +508,14 @@ const ProjectsApplications = () => {
           </div>
           <div className="container py-5">
             <div className="row">
-              <div className="col-12 col-sm-12 col-md-6">
+              <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
                 <div className="text-center">
                   <div className="content active-content">
                     <img src="/assets/poke2.png" alt="" className="img-fluid" style={{width: 400, height: 300}}/>
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column" data-aos="fade-up">
                 <div className="d-flex align-items-center gap-2">
                   <p className="text-white text-xl fw-700 mb-0">03</p>
                   <h2 className="text-white text-xl fw-900 mb-0">Pokemon</h2>
@@ -520,14 +529,14 @@ const ProjectsApplications = () => {
           </div>
           <div className="container py-5">
             <div className="row">
-              <div className="col-12 col-sm-12 col-md-6">
+              <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
                 <div className="text-center">
                   <div className="content active-content">
                     <img src="/assets/cs2.png" alt="" className="img-fluid" style={{width: 400, height: 300}}/>
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+              <div className="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-start flex-column" data-aos="fade-up">
                 <div className="d-flex align-items-center gap-2">
                   <p className="text-white text-xl fw-700 mb-0">04</p>
                   <h2 className="text-white text-xl fw-900 mb-0">CareerSearch</h2>

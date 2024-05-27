@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/navbar";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const EducationSkills = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: true, 
+    });
+  }, []);
+  
   return(
     <div className="bg-line">
     <Navbar/>
     <div className="container mt-5">
     <div className="row pt-3 px-3">
-      <div className="col-12 col-sm-12 col-md-6">
-        <h4 className="animate text-gray fw-900 text-xxl px-0 pt-4">Education</h4>
-          <div className="animate2 row py-4">
+      <div className="col-12 col-sm-12 col-md-6" data-aos="fade-down">
+        <h4 className="text-gray fw-900 text-xxl px-0 pt-4">Education</h4>
+          <div className="row py-4">
             <div className="row pb-2">
               <div className="col-3">
                 <p className="text-white mb-0">2019 - 2021</p>
@@ -39,9 +48,9 @@ const EducationSkills = () => {
             </div>
           </div>
         </div>
-      <div className="col-12 col-sm-12 col-md-6">
-        <h4 className="animate text-gray fw-900 pt-4 text-xxl">Technical Skills</h4>
-          <div className="animate2 row py-4 gap-3">
+      <div className="col-12 col-sm-12 col-md-6" data-aos="fade-down">
+        <h4 className="text-gray fw-900 pt-4 text-xxl">Technical Skills</h4>
+          <div className="row py-4 gap-3">
             <div className="col-12 d-flex">
               <div className="col-3 col-sm-3">
                 <img src="/assets/figma.jpg" alt="img-fluid" style={{width: 60, height: 60}}/>
@@ -69,9 +78,9 @@ const EducationSkills = () => {
       </div>
 
       <div className="row pt-3 px-3">
-        <div className="col-12 col-sm-12 col-md-6 ">
-          <h4 className="animate text-gray fw-900 pt-4 text-xxl">Language</h4>
-              <div className="animate2 row py-4">
+        <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-right">
+          <h4 className="text-gray fw-900 pt-4 text-xxl">Language</h4>
+              <div className="row py-4">
                 <div className="col-5 border-end">
                   <p className="text-white">Indonesia (Native)</p>
                 </div>
@@ -80,18 +89,18 @@ const EducationSkills = () => {
                 </div>
               </div>
             </div>
-        <div className="col-12 col-sm-12 col-md-6 ">
-          <h4 className="animate text-gray fw-900 pt-4 text-xxl">Interest</h4> 
+        <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-left">
+          <h4 className="text-gray fw-900 pt-4 text-xxl">Interest</h4> 
             <div className="col-12 py-4 px-0">
-              <p className="animate2 text-white">Technology</p>
+              <p className="text-white">Technology</p>
             </div>
           </div>
         </div>
 
           <div className="row pt-3 px-3 pb-5">
-            <div className="col-12 col-sm-12 col-md-6 ">
-              <h4 className="animate text-gray fw-900 pt-4 text-xxl">Soft Skills</h4>
-                  <div className="animate2 row py-4">
+            <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-up">
+              <h4 className="text-gray fw-900 pt-4 text-xxl">Soft Skills</h4>
+                  <div className="row py-4">
                     <div className="col-6 border-end">
                       <p className="text-white">Teamwork</p>
                       <p className="text-white">Communication</p>
@@ -102,9 +111,9 @@ const EducationSkills = () => {
                     </div>
                   </div>
                 </div>
-            <div className="col-12 col-sm-12 col-md-6">
-              <h4 className="animate text-gray fw-900 pt-4 text-xxl">Skill Set</h4>
-                <div className="animate2 row py-4">
+            <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
+              <h4 className="text-gray fw-900 pt-4 text-xxl">Skill Set</h4>
+                <div className="row py-4">
                   <div className="col-6 border-end">
                     <p className="text-white">User Research</p>
                     <p className="text-white">Wireframing</p>

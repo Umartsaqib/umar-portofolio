@@ -61,16 +61,6 @@ body {
   height: auto; 
 }
 
-@keyframes mymove {
-  from {right: 1000px;}
-  to {right: 0px;}
-}
-
-@keyframes mymove2 {
-  from {left: 1000px;}
-  to {left: 0px;}
-}
-
 .bg-line{
   background: repeating-linear-gradient(
     25deg,
@@ -80,18 +70,6 @@ body {
     #2b2a2a 11px
   );
   background-size: cover;
-  }
-
-  .animate{
-    position: relative;
-    animation: mymove 3s;
-    animation-delay: calc(var(--scroll) * -1s);
-  }
-
-  .animate2{
-    position: relative;
-    animation: mymove2 3s;
-    animation-delay: calc(var(--scroll) * -1s);
   }
 
   .user-img{
