@@ -16,7 +16,7 @@ const Programming = () => {
               <div className="col-12 col-sm-12 col-md-4 pt-4">
                 <h4 className="text-white">HTML</h4>
                 <p className="text-white">About</p>
-                <p className="text-white">I use this HTML coding to organize the framework on this website such as the navbar, main, footer, etc.</p>
+                <p className="text-white">I use this HTML coding to organize the framework on this website such as the navbar, main, etc.</p>
               </div>
           </div>
           <div className="row justify-content-center align-items-center mb-4 animate">
@@ -26,7 +26,7 @@ const Programming = () => {
               <div className="col-12 col-sm-12 col-md-4 pt-4">
                 <h4 className="text-white">CSS</h4>
                 <p className="text-white">About</p>
-                <p className="text-white">I use this css coding to make a style on this website such as the navbar, main, footer, etc.</p>
+                <p className="text-white">I use this css coding to make a style on this website such as the navbar, main, etc.</p>
               </div>
           </div>
           <div className="row justify-content-center align-items-center mb-4 animate2">

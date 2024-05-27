@@ -34,7 +34,7 @@ const ProjectsApplications = () => {
         {/* Projects & Applications */}
         <div className="row py-5">
           {/* Project 1 */}
-          <div className="col-12 col-sm-12 col-md-3">
+          <div className="col-12 col-sm-12 col-md-3 animate">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">01</p>
@@ -48,7 +48,7 @@ const ProjectsApplications = () => {
             </div>
           </div>
           {/* Project 2 */}
-          <div className="col-12 col-sm-12 col-md-3">
+          <div className="col-12 col-sm-12 col-md-3 animate2">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">02</p>
@@ -62,7 +62,7 @@ const ProjectsApplications = () => {
             </div>
           </div>
           {/* Project 3 */}
-          <div className="col-12 col-sm-12 col-md-3">
+          <div className="col-12 col-sm-12 col-md-3 animate">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">03</p>
@@ -76,7 +76,7 @@ const ProjectsApplications = () => {
             </div>
           </div>
           {/* Project 4 */}
-          <div className="col-12 col-sm-12 col-md-3">
+          <div className="col-12 col-sm-12 col-md-3 animate2">
             <div className="d-flex gap-2">
               <div>
                 <p className="text-white text-xl fw-500">04</p>
@@ -217,16 +217,16 @@ const ProjectsApplications = () => {
         </div>
         <div className={`container py-5 ${activeContent2 === 4 ? "" : "d-none"}`} id="content4">
           <div className="row">
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <h2 className="text-white fw-900 mb-0">M-Banking (Clone) MockUps</h2>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/bca3.png" alt="" className="img-fluid" />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/bca4.png" alt="" className="img-fluid" />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/bca5.png" alt="" className="img-fluid" />
             </div>
           </div>
@@ -262,16 +262,16 @@ const ProjectsApplications = () => {
         </div>
         <div className={`container py-5 ${activeContent3 === 6 ? "" : "d-none"}`} id="content6">
           <div className="row">
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <h2 className="text-white fw-900 mb-0">Rentable MockUps</h2>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/rent3.png" alt="" className="img-fluid" />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/rent4.png" alt="" className="img-fluid" />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/rent5.png" alt="" className="img-fluid" />
             </div>
           </div>
@@ -306,16 +306,16 @@ const ProjectsApplications = () => {
         </div>
         <div className={`container py-5 ${activeContent4 === 8 ? "" : "d-none"}`} id="content8">
           <div className="row">
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <h2 className="text-white fw-900 mb-0">Chromatic Cinema MockUps</h2>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/cc3.png" alt="" className="img-fluid" />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/cc4.png" alt="" className="img-fluid" />
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-12 col-md-3 text-center">
               <img src="/assets/cc5.png" alt="" className="img-fluid" />
             </div>
           </div>
@@ -513,7 +513,7 @@ const ProjectsApplications = () => {
                 </div>
                 <div>
                   <p className="text-white">About Project</p>
-                  <p className="text-white">pokemon is</p>
+                  <p className="text-white">Pokémon is a website that contains lists of Pokémon names. From these lists, we can view the detailed skills possessed by each Pokémon. On this website, we can search for the desired Pokémon name and choose from Pokémon numbers 1 to 5 as an example.</p>
                 </div>
               </div>
             </div>
@@ -534,7 +534,7 @@ const ProjectsApplications = () => {
                 </div>
                 <div>
                   <p className="text-white">About Project</p>
-                  <p className="text-white">CareerSearch is</p>
+                  <p className="text-white">CareerSearch is a website for job seekers. Here, we can search for many job opportunities and apply directly. Afterwards, we can check the status of our job applications to see if they have been accepted or not.</p>
                 </div>
               </div>
             </div>

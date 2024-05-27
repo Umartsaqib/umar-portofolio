@@ -85,11 +85,13 @@ body {
   .animate{
     position: relative;
     animation: mymove 3s;
+    animation-delay: calc(var(--scroll) * -1s);
   }
 
   .animate2{
     position: relative;
-    animation: mymove2 3s forwards;
+    animation: mymove2 3s;
+    animation-delay: calc(var(--scroll) * -1s);
   }
 
   .user-img{
