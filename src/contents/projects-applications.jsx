@@ -562,7 +562,6 @@ const ProjectsApplications = () => {
                 <div>
                   <p className="text-white">About Project</p>
                   <p className="text-white">CareerSearch is a website for job seekers. Here, we can search for many job opportunities and apply directly. Afterwards, we can check the status of our job applications to see if they have been accepted or not.</p>
-                  <p className="text-white">this is the <a href="https://career-search-project-revou.vercel.app/">CareerSearch site</a></p>
                 </div>
               </div>
             </div>
