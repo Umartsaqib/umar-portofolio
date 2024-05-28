@@ -523,10 +523,28 @@ const ProjectsApplications = () => {
                 <div>
                   <p className="text-white">About Project</p>
                   <p className="text-white">Pokémon is a website that contains lists of Pokémon names. From these lists, we can view the detailed skills possessed by each Pokémon. On this website, we can search for the desired Pokémon name and choose from Pokémon numbers 1 to 5 as an example.</p>
+                  <p className="text-white">this is the <a href="https://module-5-umartsaqib-gjdw.vercel.app/">Pokemon site</a></p>
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="container py-5">
+            <div className="row justify-content-center">
+              <div className="col-12" data-aos="fade-up">
+                <h2 className="text-white">Pokemon MockUps</h2>
+              </div>
+              <div className="row my-5">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
+                  <img src="/assets/poke3.png" alt="" className="img-fluid "/>
+                </div>
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
+                  <img src="/assets/poke4.png" alt="" className="img-fluid "/>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="container py-5">
             <div className="row">
               <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
@@ -544,10 +562,28 @@ const ProjectsApplications = () => {
                 <div>
                   <p className="text-white">About Project</p>
                   <p className="text-white">CareerSearch is a website for job seekers. Here, we can search for many job opportunities and apply directly. Afterwards, we can check the status of our job applications to see if they have been accepted or not.</p>
+                  <p className="text-white">this is the <a href="https://career-search-project-revou.vercel.app/">CareerSearch site</a></p>
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="container py-5">
+            <div className="row justify-content-center">
+              <div className="col-12" data-aos="fade-up">
+                <h2 className="text-white">CareerSearch MockUps</h2>
+              </div>
+              <div className="row my-5">
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
+                  <img src="/assets/.png" alt="" className="img-fluid "/>
+                </div>
+                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
+                  <img src="/assets/.png" alt="" className="img-fluid "/>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
