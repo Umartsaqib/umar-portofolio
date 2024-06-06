@@ -65,12 +65,32 @@ const EducationSkills = () => {
                 <img src="/assets/adobepr.png" alt="img-fluid" style={{width: 60, height: 60}}/>
               </div>
             </div>
-            <div className="col-12 d-flex gap-2">
+            <div className="col-12 d-flex">
               <div className="col-3">
                 <img src="/assets/java.jpg" alt="img-fluid" style={{width: 60, height: 60}}/>
               </div>
               <div className="col-3 col-sm-3">
                 <img src="/assets/react.png" alt="img-fluid" style={{width: 60, height: 60}}/>
+              </div>
+              <div className="col-3 col-sm-3">
+                <img src="/assets/vue.png" alt="img-fluid" style={{width: 60, height: 60}}/>
+              </div>
+              <div className="col-3 col-sm-3">
+                <img src="/assets/nextjs.avif" alt="img-fluid" style={{width: 60, height: 60}}/>
+              </div>
+            </div>
+            <div className="col-12 d-flex">
+              <div className="col-3">
+                <img src="/assets/typescript.png" alt="img-fluid" style={{width: 60, height: 60}}/>
+              </div>
+              <div className="col-3 col-sm-3">
+                <img src="/assets/python.png" alt="img-fluid" style={{width: 60, height: 60}}/>
+              </div>
+              <div className="col-3 col-sm-3">
+                <img src="/assets/flask.png" alt="img-fluid" style={{width: 60, height: 60}}/>
+              </div>
+              <div className="col-3 col-sm-3">
+                <img src="/assets/mysql.png" alt="img-fluid" style={{width: 60, height: 60}}/>
               </div>
             </div>
           </div>
@@ -93,6 +113,7 @@ const EducationSkills = () => {
           <h4 className="text-gray fw-900 pt-4 text-xxl">Interest</h4> 
             <div className="col-12 py-4 px-0">
               <p className="text-white">Technology</p>
+              <p className="text-white">Learning something new to gain experience and skills</p>
             </div>
           </div>
         </div>
@@ -102,12 +123,12 @@ const EducationSkills = () => {
               <h4 className="text-gray fw-900 pt-4 text-xxl">Soft Skills</h4>
                   <div className="row py-4">
                     <div className="col-6 border-end">
-                      <p className="text-white">Teamwork</p>
-                      <p className="text-white">Communication</p>
+                      <p className="text-white"><strong>Teamwork</strong>: I excel in working collaboratively to achieve common goals.</p>
+                      <p className="text-white"><strong>Communication</strong>: I effectively convey technical concepts to diverse stakeholders.</p>
                     </div>
                     <div className="col-6 ps-3">
-                      <p className="text-white">Critical Thinking</p>
-                      <p className="text-white">Time Management</p>
+                      <p className="text-white"><strong>Critical Thinking</strong>: My critical thinking skills help me analyze problems and make informed decisions.</p>
+                      <p className="text-white"><strong>Time Management</strong>: My time management abilities ensure I meet deadlines and maintain productivity in fast-paced environments.</p>
                     </div>
                   </div>
                 </div>
