@@ -411,10 +411,7 @@ const ProjectsApplications = () => {
                 </div>
                 <div>
                   <p className="text-white">About Project</p>
-                  <p className="text-white">ticks is an online concert ticketbuying and selling
-                    website tomake it easier for users to buyconcert tickets,
-                    also in ticks thereare a category like best
-                    seller,recommendation ticket & promo</p>
+                  <p className="text-white">ticks is the online purchase and sale of concert tickets website to make it easier for users to buy concert tickets, Also checked is the like best category sellers, ticket recommendations & promos. ticks is a project from campus where we, as information systems students studying digital technology, created a website in groups, ticks was my group and I's first experience creating a website, ticks was created using HTML, CSS, and Javascript</p>
                 </div>
               </div>
             </div>
@@ -474,10 +471,7 @@ const ProjectsApplications = () => {
                 </div>
                 <div>
                   <p className="text-white">About Project</p>
-                  <p className="text-white">super cat is a website about thecat lovers community,
-                    on thiswebsite users can see photos andvideos of cats,
-                    and there is a formwhere users are asked to fill intheir
-                    personal data to enter thecat lovers community</p>
+                  <p className="text-white">Super cat is a website about the cat lover community, on this website users can see photos and videos of cats, and there is a form where users are asked to fill it out personal data to enter the cat lover community. supercat was the first assignment that Revou Bootcamp gave me where I was asked as a front end developer to create a website about the cat lover community where I was asked to create semantics code, create a navbar, use a grid, display videos on the website, create a form, and create a responsive website using media tags. Super cat was created using HTML5, CSS, and Javascript</p>
                 </div>
               </div>
             </div>
@@ -522,7 +516,7 @@ const ProjectsApplications = () => {
                 </div>
                 <div>
                   <p className="text-white">About Project</p>
-                  <p className="text-white">Pokémon is a website that contains lists of Pokémon names. From these lists, we can view the detailed skills possessed by each Pokémon. On this website, we can search for the desired Pokémon name and choose from Pokémon numbers 1 to 5 as an example.</p>
+                  <p className="text-white">Pokémon is a website that lists the names of Pokémon. From this list we can see the detailed skills possessed by each Pokémon. On this website we can search for the name of the Pokémon we want and choose Pokémon numbers 1 to 5 as an example. This Pokemon was an assignment from Revou Bootcamp where I was asked to create a website that could call the Pokemon API. I developed it from React to Next.js where here I was asked to implement server-side-rendering. Pokémon is a website that lists the names of Pokémon. From this list we can see the detailed skills possessed by each Pokémon. On this website we can search for the name of the Pokémon we want and choose Pokémon numbers 1 to 5 as an example.</p>
                   <p className="text-white">this is the <a href="https://module-5-umartsaqib-gjdw.vercel.app/">Pokemon site</a></p>
                 </div>
               </div>
@@ -561,28 +555,11 @@ const ProjectsApplications = () => {
                 </div>
                 <div>
                   <p className="text-white">About Project</p>
-                  <p className="text-white">CareerSearch is a website for job seekers. Here, we can search for many job opportunities and apply directly. Afterwards, we can check the status of our job applications to see if they have been accepted or not.</p>
+                  <p className="text-white">CareerSearch is a group project work where I as the front end is tasked with creating an attractive and responsive appearance, this website is useful for job seekers. Here, we can search for many job opportunities and apply directly. After that, we can check the status of our job application to find out whether it has been accepted or not. but unfortunately because this website can't run anymore because we use the railway and you have to pay monthly but here is the documentation from careersearch itself <a href="https://github.com/widiapuspitasar/CareerSearch_ProjectRevou">linkcareersearch</a> . For this project on the front end I used Vite React, Tailwind CSS and Material UI</p>
                 </div>
               </div>
             </div>
           </div>
-
-          <div className="container py-5">
-            <div className="row justify-content-center">
-              <div className="col-12" data-aos="fade-up">
-                <h2 className="text-white">CareerSearch MockUps</h2>
-              </div>
-              <div className="row my-5">
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
-                  <img src="/assets/.png" alt="" className="img-fluid "/>
-                </div>
-                <div className="col-12 col-sm-12 col-md-6 d-flex flex-column" data-aos="fade-up">
-                  <img src="/assets/.png" alt="" className="img-fluid "/>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
