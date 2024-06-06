@@ -31,7 +31,7 @@ const Navbar = () => {
                   <Link to="/education-skills" className={`nav fw-500 text-lg lh-24 ${pathname === '/education-skills' ? 'active' : ''}`}>Education & Skills</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/programming" className={`nav fw-500 text-lg lh-24 ${pathname === '/programming' ? 'active' : ''}`}>Programming</Link>
+                  <Link to="/programming" className={`nav fw-500 text-lg lh-24 ${pathname === '/programming' ? 'active' : ''}`}>Experience</Link>
                 </li>
                 <li className="nav-item">
                   <Link to="/projects-applications" className={`nav fw-500 text-lg lh-24 ${pathname === '/projects-applications' ? 'active' : ''}`}>Project & Application</Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
               <Link to="/education-skills" className={`navi fw-500 text-lg lh-24 ${pathname === '/education-skills' ? 'active' : ''}`}>Education & Skills</Link>
             </li>
             <li className="nav-item">
-              <Link to="/programming" className={`navi fw-500 text-lg lh-24 ${pathname === '/programming' ? 'active' : ''}`}>Programming</Link>
+              <Link to="/programming" className={`navi fw-500 text-lg lh-24 ${pathname === '/programming' ? 'active' : ''}`}>Experience</Link>
             </li>
             <li className="nav-item">
               <Link to="/projects-applications" className={`navi fw-500 text-lg lh-24 ${pathname === '/projects-applications' ? 'active' : ''}`}>Project & Application</Link>
