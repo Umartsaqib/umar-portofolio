@@ -13,7 +13,7 @@ const Main = () => {
   }, []);
 
   return(
-    <div className="bg-main-img">
+    <div className="bg-line">
       <Navbar />
       <div className="container" data-aos="fade-right">
         <div className="row d-flex align-items-center min-vh-100">

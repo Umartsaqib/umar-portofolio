@@ -18,11 +18,11 @@ const EducationSkills = () => {
     <div className="container mt-5">
     <div className="row pt-3 px-3">
       <div className="col-12 col-sm-12 col-md-6" data-aos="fade-down">
-        <h4 className="text-gray fw-900 text-xxl px-0 pt-4">Education</h4>
+        <h4 className="fw-900 text-xxl px-0 pt-4">Education</h4>
           <div className="row py-4">
             <div className="row pb-2">
               <div className="col-3">
-                <p className="text-white mb-0">2019 - 2021</p>
+                <p className="text-white mb-0">2018 - 2021</p>
               </div>
               <div className="col-9">
                 <p className="text-white mb-0">SMAN 2 Tangerang Selatan</p>
@@ -49,7 +49,7 @@ const EducationSkills = () => {
           </div>
         </div>
       <div className="col-12 col-sm-12 col-md-6" data-aos="fade-down">
-        <h4 className="text-gray fw-900 pt-4 text-xxl">Technical Skills</h4>
+        <h4 className="fw-900 pt-4 text-xxl">Technical Skills</h4>
           <div className="row py-4 gap-3">
             <div className="col-12 d-flex">
               <div className="col-3 col-sm-3">
@@ -98,8 +98,8 @@ const EducationSkills = () => {
       </div>
 
       <div className="row pt-3 px-3">
-        <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-right">
-          <h4 className="text-gray fw-900 pt-4 text-xxl">Language</h4>
+        <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-up">
+          <h4 className=" fw-900 pt-4 text-xxl">Language</h4>
               <div className="row py-4">
                 <div className="col-5 border-end">
                   <p className="text-white">Indonesia (Native)</p>
@@ -109,8 +109,8 @@ const EducationSkills = () => {
                 </div>
               </div>
             </div>
-        <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-left">
-          <h4 className="text-gray fw-900 pt-4 text-xxl">Interest</h4> 
+        <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-up">
+          <h4 className=" fw-900 pt-4 text-xxl">Interest</h4> 
             <div className="col-12 py-4 px-0">
               <p className="text-white">Technology</p>
               <p className="text-white">Learning something new to gain experience and skills</p>
@@ -120,7 +120,7 @@ const EducationSkills = () => {
 
           <div className="row pt-3 px-3 pb-5">
             <div className="col-12 col-sm-12 col-md-6 " data-aos="fade-up">
-              <h4 className="text-gray fw-900 pt-4 text-xxl">Soft Skills</h4>
+              <h4 className=" fw-900 pt-4 text-xxl">Soft Skills</h4>
                   <div className="row py-4">
                     <div className="col-6 border-end">
                       <p className="text-white"><strong>Teamwork</strong>: I excel in working collaboratively to achieve common goals.</p>
@@ -133,7 +133,7 @@ const EducationSkills = () => {
                   </div>
                 </div>
             <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
-              <h4 className="text-gray fw-900 pt-4 text-xxl">Skill Set</h4>
+              <h4 className=" fw-900 pt-4 text-xxl">Skill Set</h4>
                 <div className="row py-4">
                   <div className="col-6 border-end">
                     <p className="text-white">User Research</p>

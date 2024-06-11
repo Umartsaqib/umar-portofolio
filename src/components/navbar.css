@@ -2,41 +2,45 @@
   overflow: auto;
 }
 
+
+
 .nav{
-  color: rgb(181, 181, 181) ;
+  color: white ;
   text-decoration: none;
   gap: 16px;
   }
 
 .navi{
-  color: rgb(181, 181, 181) ;
+  color: white ;
   text-decoration: none;
   gap: 24px;
   }
 
   .nav:active {
-  color: white ;
+  color: black ;
   }
 
   .nav:hover{
-     color: white !important;
+     color: black !important;
+     font-weight: bold; 
   }
 
   .nav.active {
-    color: white; 
+    color: black; 
     font-weight: bold; 
   }
 
   .navi:active {
-  color: white ;
+  color: black ;
   }
 
   .navi:hover{
-     color: white !important;
+     color: black !important;
+     font-weight: bold; 
   }
 
   .navi.active {
-    color: white; 
+    color: black; 
     font-weight: bold; 
     font-size: 20px;
   }
@@ -55,18 +59,11 @@
   }
 
   .test{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: black;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    background-color: #74ebd5; 
   }
 
   .bg-line-menu{
-    background: repeating-linear-gradient(
-      25deg,
-      black,
-      black 10px,
-      #000000 10px,
-      #2b2a2a 11px
-    );
-    background-size: cover;
-    
-    }
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    background-color: #74ebd5; 
+  }

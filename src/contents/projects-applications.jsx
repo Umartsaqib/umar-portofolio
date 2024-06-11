@@ -412,6 +412,11 @@ const ProjectsApplications = () => {
                 <div>
                   <p className="text-white">About Project</p>
                   <p className="text-white">ticks is the online purchase and sale of concert tickets website to make it easier for users to buy concert tickets, Also checked is the like best category sellers, ticket recommendations & promos. ticks is a project from campus where we, as information systems students studying digital technology, created a website in groups, ticks was my group and I's first experience creating a website, ticks was created using HTML, CSS, and Javascript</p>
+                  <div className="col-12 d-flex gap-3">
+                    <button className="btns text-white">HTML</button>
+                    <button className="btns text-white">CSS</button>
+                    <button className="btns text-white">JavaScript</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -472,6 +477,11 @@ const ProjectsApplications = () => {
                 <div>
                   <p className="text-white">About Project</p>
                   <p className="text-white">Super cat is a website about the cat lover community, on this website users can see photos and videos of cats, and there is a form where users are asked to fill it out personal data to enter the cat lover community. supercat was the first assignment that Revou Bootcamp gave me where I was asked as a front end developer to create a website about the cat lover community where I was asked to create semantics code, create a navbar, use a grid, display videos on the website, create a form, and create a responsive website using media tags. Super cat was created using HTML5, CSS, and Javascript</p>
+                  <div className="col-12 d-flex gap-3">
+                    <button className="btns text-white">HTML</button>
+                    <button className="btns text-white">CSS</button>
+                    <button className="btns text-white">JavaScript</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -556,6 +566,11 @@ const ProjectsApplications = () => {
                 <div>
                   <p className="text-white">About Project</p>
                   <p className="text-white">CareerSearch is a group project work where I as the front end is tasked with creating an attractive and responsive appearance, this website is useful for job seekers. Here, we can search for many job opportunities and apply directly. After that, we can check the status of our job application to find out whether it has been accepted or not. but unfortunately because this website can't run anymore because we use the railway and you have to pay monthly but here is the documentation from careersearch itself <a href="https://github.com/widiapuspitasar/CareerSearch_ProjectRevou">linkcareersearch</a> . For this project on the front end I used Vite React, Tailwind CSS and Material UI</p>
+                  <div className="col-12 d-flex gap-3">
+                    <button className="btns text-white">Vite React</button>
+                    <button className="btns text-white">Tailwind CSS</button>
+                    <button className="btns text-white">Material UI</button>
+                  </div>
                 </div>
               </div>
             </div>

@@ -18,7 +18,7 @@ const Programming = () => {
         <div className="container">
           <div className="row">
           <div className="col-12 col-sm-12 col-md-6" data-aos="fade-up">
-            <h4 className="text-gray fw-900 text-xxl px-0 pt-4">Experience</h4>
+            <h4 className="fw-900 text-xxl px-0 pt-4">Experience</h4>
           </div>
           <div className="row mt-3" data-aos="fade-up">
             <div className="col-6 text-white">Ui Engineer Intern, Global Loyalty Indonesia</div>
