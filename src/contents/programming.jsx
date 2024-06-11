@@ -25,6 +25,11 @@ const Programming = () => {
             <div className="col-6 text-white text-end">February 2024 – August 2024</div>
           <div className="col-12 mt-3">
             <ol>
+              <li className="text-white">Design library/system and how it works</li>
+              <li className="text-white">Negotiate through a variety of requirements, from vague to well-defined, simple to complex</li>
+              <li className="text-white">Create static content campaign</li>
+              <li className="text-white">Generate email template</li>
+              <li className="text-white">Create UI Design product</li>
               <li className="text-white">Developed a comprehensive documentation guide for UI Engineer interns, enhancing the onboarding process Designed and implemented a new menu on Alfagift Apps</li>
               <li className="text-white">Improving user experience Maintained static content for official store and promotions</li>
               <li className="text-white">Ensuring up-to-date and accurate information Collaborated with the development team to troubleshoot and resolve UI issues, enhancing app performance</li>
