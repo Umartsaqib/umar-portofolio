@@ -23,7 +23,7 @@ const Navbar = () => {
               </span>
             </div>
             <div>
-              <ul className={`nav nav-pills collapse navbar-collapse d-lg-flex justify-content-end ${menuOpen ? 'show' : ''}`} id="navbarNav">
+              <ul className={`nav nav-pills collapse navbar-collapse d-lg-flex justify-content-end ${menuOpen ? 'hide' : ''}`} id="navbarNav">
                 <li className="nav-item">
                   <Link to="/about" className={`nav fw-500 text-lg lh-24 ${pathname === '/about' ? 'active' : ''}`}>About Me</Link>
                 </li>
