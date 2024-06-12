@@ -41,9 +41,13 @@ const About = () => {
                   <i className="bi bi-envelope-fill dark-black me-3"></i>
                   <p className="dark-black mb-0">muhammadumartsaqib</p>
                 </div>
+                <div className="col-12 d-flex align-items-center" data-aos="fade-up">
+                  <i className="bi bi-github dark-black me-3"></i>
+                  <p className="dark-black mb-0">Umartsaqib</p>
+                </div>
               </div>
             </div>
-            <div className="col-12 col-sm-12 col-md-4 mt-5 mb-5" data-aos="fade-up">
+            <div className="col-12 col-sm-12 col-md-4 mt-5 mb-5 d-flex justify-content-center" data-aos="fade-up">
               <img src="assets/umae.png" alt="" className="img-fluid"/>
             </div>
           </div>
