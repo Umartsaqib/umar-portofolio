@@ -38,7 +38,7 @@ const Navbar = () => {
                 </li>
               </ul>
               <button className="navbar-toggler d-lg-none" type="button" onClick={toggleMenu}>
-                <i className="bi bi-list text-white" style={{fontSize: 20}}></i>
+                <i className="bi bi-list dark-black" style={{fontSize: 20}}></i>
               </button>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
 
       <div className={`offcanvas offcanvas-end ${menuOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div className="test offcanvas-header py-3 px-4 d-flex align-items-center justify-content-end">
-          <i className="bi bi-x text-white" style={{fontSize: 20}} onClick={toggleMenu} aria-label="Close"></i>
+          <i className="bi bi-x dark-black" style={{fontSize: 20}} onClick={toggleMenu} aria-label="Close"></i>
         </div>
         <div className="offcanvas-body bg-line-menu col gap-4">
           <ul className="navbar-nav justify-content-end flex-grow-1 gap-4">

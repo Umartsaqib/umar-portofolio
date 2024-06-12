@@ -37,6 +37,11 @@ body {
 .text-brown {color: #8B760B;}
 .text-orange {color: #D4B000;}
 
+.dark-black{color: #000000;}
+.dark-blue{color: #00008B;}
+.dark-purple{color: #4B0082;}
+.dark-purple{color: #006400;}
+
 /* Radius */
 .radius-4 {border-radius: 4px;}
 .radius-6 {border-radius: 6px;}
@@ -50,6 +55,9 @@ body {
 .bg-light-blue {background: #E6F4FF;}
 .bg-brown {background: #FFF6CC;}
 .bg-black {background: #000000;}
+
+
+/* font family */
 
 /*  */
 /* .bg-main-img {

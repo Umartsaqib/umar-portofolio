@@ -18,8 +18,8 @@ const Main = () => {
       <div className="container" data-aos="fade-right">
         <div className="row d-flex align-items-center min-vh-100">
           <div className="col-12  text-start px-3 mt-5">
-            <h2 className="mt-1 text-white fw-700 lh-24">Muhammad Umar Tsaqib</h2>
-            <p className="text-white mb-4 fw-400 lh-20 text-lg">PORTOFOLIO</p>
+            <h2 className="mt-1 dark-black fw-700 lh-24">Muhammad Umar Tsaqib</h2>
+            <p className="dark-black mb-4 fw-400 lh-20 text-lg">Always want to improve skill and always want to learn something new</p>
           </div>
         </div>
       </div>

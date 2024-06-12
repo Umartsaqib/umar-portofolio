@@ -18,8 +18,8 @@ const About = () => {
         <div className="container">
           <div className="row px-3 mt-5 align-items-center">
             <div className="col-12 col-sm-12 col-md-8 d-flex justify-content-center flex-column" data-aos="fade-up">
-              <h2 className="mt-1 text-white fw-700 lh-24 mb-4 px-0">About Me</h2>
-              <p className="text-white col-12 col-sm-12 col-md-10 text-md">
+              <h2 className="mt-1 dark-black fw-700 lh-24 mb-4 px-0">About Me</h2>
+              <p className="dark-black col-12 col-sm-12 col-md-10 text-md">
                 I am a sixth-semester student majoring in Information Systems, currently interning as a UI Engineer. In this role, I frequently code and have strong knowledge in front-end development. I have also participated in the Software Engineer bootcamp at RevoU, which has further enhanced my skills in this field.
                 <br /><br />
                 I am proficient in HTML, CSS, JavaScript, and frameworks such as React and TypeScript. I always strive to create engaging and responsive user interfaces. During my internship, I applied my knowledge to real-world projects, improving my technical skills and problem-solving abilities.
@@ -30,21 +30,21 @@ const About = () => {
               </p>
               <div className="row gap-2 mt-5">
                 <div className="col-12 d-flex align-items-center" data-aos="fade-up">
-                  <i className="bi bi-whatsapp text-white me-3"></i>
-                  <p className="text-white mb-0">0812-9062-2003</p>
+                  <i className="bi bi-whatsapp dark-black me-3"></i>
+                  <p className="dark-black mb-0">0812-9062-2003</p>
                 </div>
                 <div className="col-12 d-flex align-items-center" data-aos="fade-up">
-                  <i className="bi bi-linkedin text-white me-3"></i>
-                  <p className="text-white mb-0">umartsqb@gmail.com</p>
+                  <i className="bi bi-linkedin dark-black me-3"></i>
+                  <p className="dark-black mb-0">umartsqb@gmail.com</p>
                 </div>
                 <div className="col-12 d-flex align-items-center" data-aos="fade-up">
-                  <i className="bi bi-envelope-fill text-white me-3"></i>
-                  <p className="text-white mb-0">muhammadumartsaqib</p>
+                  <i className="bi bi-envelope-fill dark-black me-3"></i>
+                  <p className="dark-black mb-0">muhammadumartsaqib</p>
                 </div>
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-4 mt-5 mb-5" data-aos="fade-up">
-              <img src="assets/umar.JPG" alt="" className="img-fluid"/>
+              <img src="assets/umae.png" alt="" className="img-fluid"/>
             </div>
           </div>
         </div>
